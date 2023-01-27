@@ -66,3 +66,44 @@ h1{
  =======================
      dream part end
 ==================== */
+/*=====================
+     Experiences part start
+==================== */
+.ex{
+    text-align: left;
+    margin-left: 40px;
+}
+.expriences{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.content{
+    display: flex;
+}
+.ex_half{
+    width: 40%;
+    padding: 10px 0px 0px 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-box-shadow: 6px 6px 57px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 57px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 57px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-dev{
+    border-left: 7px solid blue; 
+}
+
+.ex_half h2{
+    font-size: 40px;
+}
+/*=====================
+     Experiences part end
+==================== */
+footer p{
+    text-align: center;
+}
